@@ -12,7 +12,7 @@ def hopper
         },
         :dennis_ritchie => {
           :known_for => "Unix",
-          :languages => ["C"]
+          :languages => "C"
         }
      }
 programmer_hash[:grace_hopper]
@@ -126,5 +126,5 @@ def adding_to_dennis
         }
      }
      programmer_hash[:dennis_ritchie][:languages] << "Assembly"
-  programmer_hash.to_s
+  programmer_hash
 end
