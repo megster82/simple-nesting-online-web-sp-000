@@ -129,4 +129,4 @@ def adding_to_dennis
   programmer_hash
 end
 
- adding_to_dennis[:dennis_ritchie][:languages][1]).to include("Assembly")
+ adding_to_dennis[:dennis_ritchie][:languages]
